@@ -1,0 +1,10 @@
+--COMANDOS GIT--
+ls:  para vertodos los archivos de la carpeta
+rm <nombre del archivo> : para remover los archivos
+git restore --staged archivo1.txt para restaurar algun archivo
+git branch -M main : para crear la rama principal donde se subiran los cambios improtantes
+git checkout -b <nombre de la nueva rama> : para crear otras ramas
+git log --online : para ver el historia de toods los commits que se realizaron
+si quieres mandar los cambios de una rama a otra
+1-primero ingresa a la ramaa que queires hacer el cambio
+git merge <nombre de la rama de donde quieres copiar esos cambios> : desde la rama donde quieres epgar esos cambios
